@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jest": "^22.2.1",
+    "jest-fetch-mock": "^1.4.1",
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "setupFiles": [
+      "./setupJest.js"
+    ]
+  }
+}
